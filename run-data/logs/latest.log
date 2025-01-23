@@ -1,0 +1,27 @@
+[23…·Ì2025 22:55:52.025] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\petros\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, rubymod, --all, --output, C:\Users\petros\Documents\modding\ex_mod2\src\generated\resources, --existing, C:\Users\petros\Documents\modding\ex_mod2\src\main\resources]
+[23…·Ì2025 22:55:52.028] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[23…·Ì2025 22:55:52.029] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[23…·Ì2025 22:55:52.136] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[23…·Ì2025 22:55:52.243] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/petros/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[23…·Ì2025 22:55:53.023] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23…·Ì2025 22:55:53.736] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\petros\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, rubymod, --all, --output, C:\Users\petros\Documents\modding\ex_mod2\src\generated\resources, --existing, C:\Users\petros\Documents\modding\ex_mod2\src\main\resources]
+[23…·Ì2025 22:55:58.679] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.28, for MC 1.21.1 with MCP 20240808.132146
+[23…·Ì2025 22:55:58.679] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.28 Initialized
+[23…·Ì2025 22:55:58.700] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[23…·Ì2025 22:55:59.273] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [rubymod]
+[23…·Ì2025 22:55:59.329] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/petros/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.28_mapped_official_1.21.1/forge-1.21.1-52.0.28_mapped_official_1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[23…·Ì2025 22:55:59.329] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/petros/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.28_mapped_official_1.21.1/forge-1.21.1-52.0.28_mapped_official_1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[23…·Ì2025 22:55:59.471] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[23…·Ì2025 22:55:59.601] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 129 ms
+[23…·Ì2025 22:55:59.601] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id rubymod
+[23…·Ì2025 22:55:59.611] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id rubymod finished after 9 ms
+[23…·Ì2025 22:55:59.611] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id rubymod
+[23…·Ì2025 22:55:59.612] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id rubymod finished after 0 ms
+[23…·Ì2025 22:55:59.612] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[23…·Ì2025 22:55:59.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 28 ms
+[23…·Ì2025 22:55:59.642] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: rubymod
+[23…·Ì2025 22:55:59.652] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: rubymod finished after 10 ms
+[23…·Ì2025 22:55:59.653] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: rubymod
+[23…·Ì2025 22:55:59.755] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: rubymod finished after 102 ms
+[23…·Ì2025 22:55:59.755] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 285 ms
+[23…·Ì2025 22:55:59.764] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 42, old count: 32, new count: 43, removed stale: 0, written: 12
