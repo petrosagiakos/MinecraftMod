@@ -1,0 +1,21 @@
+{
+    "type":"crafting_shaped",
+    "category":"misc",
+    "key":{
+        "C":{
+            "item":"diamond"
+        },
+        "B":{
+          "item":"stick"
+        }
+    },
+    "pattern":[
+        "  C",
+        " B ",
+        "B  "
+    ],
+    "result":{
+        "count":1,
+        "id":"rubymod:magic_blade"
+    }
+  }

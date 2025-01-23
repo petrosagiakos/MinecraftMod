@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "obsidian",
+      "ancient_derbis",
+      "emerald_ore",
+      "diamond_ore",      
+      "rubymod:ruby_ore"              
+    ]
+  }
