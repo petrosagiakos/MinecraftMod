@@ -15,7 +15,7 @@ public class ModToolTiers {
     //Emerald Tier
     public static final Tier EMERALD = new ForgeTier(100000,6,24f,27,ModTags.Blocks.NEEDS_RUBY_TOOL
     , () -> Ingredient.of(Items.EMERALD), ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL);
-
+    //copper Tier
     public static final Tier COPPER = new ForgeTier(5000,3,4f,30,ModTags.Blocks.NEEDS_COPPER_TOOL, 
     () -> Ingredient.of(Items.COPPER_INGOT), ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL);
 }
