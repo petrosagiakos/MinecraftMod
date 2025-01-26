@@ -1,0 +1,21 @@
+{
+    "type":"crafting_shaped",
+    "category":"misc",
+    "key":{
+        "A":{
+            "item":"emerald"
+        },
+        "B":{
+          "item":"stick"
+        }
+    },
+    "pattern":[
+        " A ",
+        " A ",
+        " B "
+    ],
+    "result":{
+        "count":1,
+        "id":"rubymod:emerald_sword"
+    }
+  }

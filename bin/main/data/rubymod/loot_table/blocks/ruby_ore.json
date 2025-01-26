@@ -1,0 +1,52 @@
+{
+    "type": "block",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "alternatives",
+            "children": [
+              {
+                "type": "item",
+                "conditions": [
+                  {
+                    "condition": "match_tool",
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "name": "rubymod:ruby_ore"
+              },
+              {
+                "type": "item",
+                "functions": [
+                  {
+                    "enchantment": "fortune",
+                    "formula": "ore_drops",
+                    "function": "apply_bonus"
+                  },
+                  {
+                    "function": "explosion_decay"
+                  }
+                ],
+                "name": "rubymod:ruby"
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "rubymod:blocks/ruby_ore"
+  }

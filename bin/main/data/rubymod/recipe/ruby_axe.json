@@ -1,0 +1,21 @@
+{
+  "type":"crafting_shaped",
+  "category":"misc",
+  "key":{
+      "A":{
+          "item":"rubymod:ruby"
+      },
+      "B":{
+        "item":"stick"
+      }
+  },
+  "pattern":[
+      "AA ",
+      "AB ",
+      " B "
+  ],
+  "result":{
+      "count":1,
+      "id":"rubymod:ruby_axe"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type":"crafting_shapeless",
+    "category":"misc",
+    "ingredients":[
+        {
+            "item":"rubymod:ruby_block"
+        }
+    ],
+    
+    "result":{
+        "count":9,
+        "id":"rubymod:ruby"
+    }
+}
