@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-23T22:55:59.7606397	Item Models: rubymod
+// 1.21.1	2025-01-26T22:16:46.0635857	Item Models: rubymod
 a0ebc8a1afacf3feff93db95aed4aa2fbfe6fddd assets/rubymod/models/item/copper_pickaxe.json
 2fce4b00810937547604d242225f35a10b5e7da0 assets/rubymod/models/item/copper_sword.json
 1b51999c54c75776a7437a3d53806aacaaa74d32 assets/rubymod/models/item/emerald_axe.json
@@ -23,3 +23,4 @@ c7ba08a012ad17c28613e05933a4a672222cfb41 assets/rubymod/models/item/ruby_chestpl
 851e509086f54c2bb18c3ddf33f4fc12c271e8cb assets/rubymod/models/item/ruby_pickaxe.json
 e886e8b5dd08c247bd0c1bfa904e6f348f4bf861 assets/rubymod/models/item/ruby_shovel.json
 07204ade26505acf79b77e7a73e04f2e4bdc106b assets/rubymod/models/item/ruby_sword.json
+a4fa007c4393e524cd3cd36f47759b8494c36a9f assets/rubymod/models/item/spear.json

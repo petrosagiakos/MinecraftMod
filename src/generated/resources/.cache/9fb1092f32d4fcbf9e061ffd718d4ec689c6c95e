@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-24T09:06:10.4938381	Recipes
+// 1.21.1	2025-01-26T22:16:46.0615783	Recipes
 c83c91bb317459dd2b6c528e32de25273c3a2d27 data/rubymod/advancement/recipes/misc/copper_pickaxe.json
 50d8cdce2a90530eb7e9ccdeb5d85de4a46c4f32 data/rubymod/advancement/recipes/misc/copper_sword.json
 adcb7bd3d3949cf810f7005e74a6303052f46eb6 data/rubymod/advancement/recipes/misc/emerald_axe.json
@@ -24,6 +24,7 @@ f2f95f92b5bd6516d4c3d25de55e2ffc94286eb3 data/rubymod/advancement/recipes/misc/r
 f5bb78717843454accc25ee074a7c0d197531a97 data/rubymod/advancement/recipes/misc/ruby_pickaxe.json
 bc3b44218e9d5da20ba3a184546b202f80534dcd data/rubymod/advancement/recipes/misc/ruby_shovel.json
 a2a011dbe2275ab8441d665274b73478ff2fdaba data/rubymod/advancement/recipes/misc/ruby_sword.json
+5b9df855218569e26f9bfbce2847c5e84b2585fb data/rubymod/advancement/recipes/misc/spear.json
 0fb06744494c1629d69c6692fe68805fbb034c15 data/rubymod/recipe/copper_pickaxe.json
 d0bccc820b4db89ac6473ab932601dd8124fa4e0 data/rubymod/recipe/copper_sword.json
 7fd2078081e768ad1e696c219c429d27f31dfe6d data/rubymod/recipe/emerald_axe.json
@@ -49,3 +50,4 @@ a2f59e9f12ce2a7a4657490d6119dac5f3efe8bf data/rubymod/recipe/ruby_leggings.json
 f6a8d3b755dcfa23288f46866f942cc15d42717e data/rubymod/recipe/ruby_pickaxe.json
 90c4c44b200bfb24b0b85f9ffcdf2c143940a622 data/rubymod/recipe/ruby_shovel.json
 eb0d1d22b71907965b7e5583edaee0d4223afbb4 data/rubymod/recipe/ruby_sword.json
+1cf2fc81692a1bd8a76c5e8f6ca3d2b26b1b1917 data/rubymod/recipe/spear.json

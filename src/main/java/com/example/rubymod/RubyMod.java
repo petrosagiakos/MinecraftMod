@@ -64,6 +64,9 @@ public class RubyMod
         if(event.getTabKey()==CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.PITOGYRO);
         }
+        if(event.getTabKey()==CreativeModeTabs.COMBAT){
+            event.accept(ModItems.SPEAR);
+        }
       
         
         

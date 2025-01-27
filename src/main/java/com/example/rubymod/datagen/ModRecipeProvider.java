@@ -216,5 +216,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.COPPER_INGOT)
                 .define('B',Items.STICK)
                 .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT)).save(pRecipeOutput);
+
+            //spear recipe
+            ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SPEAR.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', Items.IRON_NUGGET)
+                .define('B',Items.STICK)
+                .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET)).save(pRecipeOutput);
     }
 }

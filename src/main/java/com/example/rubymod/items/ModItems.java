@@ -7,6 +7,7 @@ import com.example.rubymod.items.custom_items.HealItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.TridentItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.food.FoodProperties;
@@ -70,6 +71,9 @@ public class ModItems{
     
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", ()->new SwordItem(ModToolTiers.COPPER, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.COPPER, 3, -0.7f))));
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", ()->new PickaxeItem(ModToolTiers.COPPER, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.COPPER, 3, -0.7f))));
+
+    //spear item
+    public static final RegistryObject<Item> SPEAR = ITEMS.register("spear",()->new TridentItem(new Item.Properties().stacksTo(64).durability(250)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
