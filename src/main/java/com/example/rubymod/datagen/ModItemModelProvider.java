@@ -43,6 +43,13 @@ public class ModItemModelProvider extends ItemModelProvider{
 
         handheldItem(ModItems.COPPER_SWORD);
         handheldItem(ModItems.COPPER_PICKAXE);
+        handheldItem(ModItems.COPPER_AXE);
+        handheldItem(ModItems.COPPER_SHOVEL);
+        handheldItem(ModItems.COPPER_HOE);
+        basicItem(ModItems.COPPER_HELMET.get());
+        basicItem(ModItems.COPPER_CHESTPLATE.get());
+        basicItem(ModItems.COPPER_LEGGINGS.get());
+        basicItem(ModItems.COPPER_BOOTS.get());
 
         basicItem(ModItems.PITOGYRO.get());
         basicItem(ModItems.MAGIC_BLADE.get());

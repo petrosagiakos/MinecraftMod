@@ -1,5 +1,12 @@
-// 1.21.1	2025-01-26T22:16:46.0635857	Item Models: rubymod
+// 1.21.1	2025-01-28T18:10:04.3601564	Item Models: rubymod
+d1e1bc183e0afa68a83b80f40880c77a2220436b assets/rubymod/models/item/copper_axe.json
+21e298f2c151da5950bd178d51d8fbea19e1cae5 assets/rubymod/models/item/copper_boots.json
+4cb00662e1f98e345ba66bdc896b249bdc2bf80e assets/rubymod/models/item/copper_chestplate.json
+de765370100f550e2a0e8a68082c3b5eb8bb4023 assets/rubymod/models/item/copper_helmet.json
+308e25817085e1e29c1b577a1ae057bf197978a8 assets/rubymod/models/item/copper_hoe.json
+66508779f1035c676388992292c5f9d598cec1d8 assets/rubymod/models/item/copper_leggings.json
 a0ebc8a1afacf3feff93db95aed4aa2fbfe6fddd assets/rubymod/models/item/copper_pickaxe.json
+021897a9920127a47850ce563cba795e3068e239 assets/rubymod/models/item/copper_shovel.json
 2fce4b00810937547604d242225f35a10b5e7da0 assets/rubymod/models/item/copper_sword.json
 1b51999c54c75776a7437a3d53806aacaaa74d32 assets/rubymod/models/item/emerald_axe.json
 f25c922a36fd2d8158d9eb4894c473618a0e05de assets/rubymod/models/item/emerald_boots.json

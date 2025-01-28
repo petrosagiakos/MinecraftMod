@@ -68,9 +68,18 @@ public class ModItems{
             .alwaysEdible().nutrition(8).saturationModifier(2f).build())));
     public static final RegistryObject<Item> MAGIC_BLADE=ITEMS.register("magic_blade",()-> new MagicBlade(new Item.Properties().durability(257)));
     public static final RegistryObject<Item> HEALER=ITEMS.register("healer", () -> new HealItem(new Item.Properties().durability(150)));
-    
+    //copper items
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", ()->new SwordItem(ModToolTiers.COPPER, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.COPPER, 3, -0.7f))));
     public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", ()->new PickaxeItem(ModToolTiers.COPPER, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.COPPER, 3, -0.7f))));
+    public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe", ()->new AxeItem(ModToolTiers.COPPER, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTiers.COPPER, 4, -1.1f))));
+    public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", ()->new ShovelItem(ModToolTiers.COPPER, new Item.Properties().attributes(ShovelItem.createAttributes(ModToolTiers.COPPER, 2, -1.7f))));
+    public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe", ()->new HoeItem(ModToolTiers.COPPER, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTiers.COPPER, 1, -0.7f))));
+    
+    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet",()-> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties().durability(70)));
+    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate",()-> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(70)));
+    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings",()-> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Properties().durability(80)));
+    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots",()-> new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Properties().durability(65)));
+
 
     //spear item
     public static final RegistryObject<Item> SPEAR = ITEMS.register("spear",()->new TridentItem(new Item.Properties().stacksTo(64).durability(250)));
