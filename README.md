@@ -42,6 +42,6 @@
 - This mod has tested succesfully in 2 windows computers
 
 ### **Our Team**
-This mod was developed by two highly skilled developers
+This mod was developed by a highly skilled developer
 - Sagiakos Petros
-- Efsevia makri
+
