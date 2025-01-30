@@ -1,0 +1,7 @@
+// 1.21.1	2025-01-23T22:30:05.4873391	Block States: rubymod
+e7ca7b79ba1043e6f2917fb22557a4610be6d35c assets/rubymod/blockstates/ruby_block.json
+0a8e63052e7cf84f13d8e043ad4e0c88ec8b014e assets/rubymod/blockstates/ruby_ore.json
+b177feb4a114f07908ffdba83319873d5940ed98 assets/rubymod/models/block/ruby_block.json
+14c3d4dca166fd88f78a01821ce451514c1677e0 assets/rubymod/models/block/ruby_ore.json
+0c2c205be8f5baf2ef473320fccaeca1c23c7718 assets/rubymod/models/item/ruby_block.json
+3fa7edffb6ee948db5055e1097a33d1ba210c880 assets/rubymod/models/item/ruby_ore.json

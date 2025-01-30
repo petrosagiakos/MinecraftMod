@@ -1,0 +1,7 @@
+// 1.21.1	2025-01-23T22:55:59.7576401	Tags for minecraft:block mod id rubymod
+7b71bb54b2039153b230d3bfa89411aaf0ec8253 data/minecraft/tags/block/mineable/pickaxe.json
+7b71bb54b2039153b230d3bfa89411aaf0ec8253 data/minecraft/tags/block/needs_iron_tool.json
+2c1bcc43056e499971bff77f16dfe1988663c2d1 data/rubymod/tags/block/incorrect_for_copper_tool.json
+f57a1c0d935679dbbcab3f2e8a06cae2238a6735 data/rubymod/tags/block/incorrect_for_ruby_tool.json
+ad742be680004bde5773729d6a44c8e464ecdcd1 data/rubymod/tags/block/needs_copper_tool.json
+2f9f98d72b415b3c5c0c588573659a48ff9e52b0 data/rubymod/tags/block/needs_ruby_tool.json

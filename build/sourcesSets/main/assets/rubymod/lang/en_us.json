@@ -1,0 +1,42 @@
+{
+    "item.rubymod.ruby":"Ruby",
+    "item.rubymod.ruby_sword":"Ruby Sword",
+    "item.rubymod.ruby_pickaxe":"Ruby Pickaxe",
+    "item.rubymod.ruby_axe":"Ruby Axe",
+    "item.rubymod.ruby_shovel":"Ruby Shovel",
+    "item.rubymod.ruby_hoe":"Ruby Hoe",
+    "item.rubymod.ruby_helmet":"Ruby Helmet",
+    "item.rubymod.ruby_chestplate":"Ruby Chestplate",
+    "item.rubymod.ruby_leggings":"Ruby Leggings",
+    "item.rubymod.ruby_boots":"Ruby Boots",
+    "item.rubymod.copper_sword":"Copper Sword",
+    "item.rubymod.copper_pickaxe":"Copper Pickaxe",
+    "item.rubymod.copper_axe":"Copper Axe",
+    "item.rubymod.copper_shovel":"Copper Shovel",
+    "item.rubymod.copper_hoe":"Copper Hoe",
+    "item.rubymod.copper_helmet":"Copper Helmet",
+    "item.rubymod.copper_chestplate":"Copper Chestplate",
+    "item.rubymod.copper_leggings":"Copper Leggings",
+    "item.rubymod.copper_boots":"Copper Boots",
+
+    "item.rubymod.emerald_sword":"Emerald Sword",
+    "item.rubymod.emerald_pickaxe":"Emerald Pickaxe",
+    "item.rubymod.emerald_axe":"Emerald Axe",
+    "item.rubymod.emerald_shovel":"Emerald Shovel",
+    "item.rubymod.emerald_hoe":"Emerald Hoe",
+    "item.rubymod.emerald_helmet":"Emerald Helmet",
+    "item.rubymod.emerald_chestplate":"Emerald Chestplate",
+    "item.rubymod.emerald_leggings":"Emerald Leggings",
+    "item.rubymod.emerald_boots":"Emerald Boots",
+    "item.rubymod.pitogyro":"Pitogyro",
+    "item.rubymod.magic_blade":"Magic Blade",
+    "item.rubymod.healer":"Healer",
+
+    "item.rubymod.spear":"Spear",
+
+    "block.rubymod.ruby_block":"Ruby Block",
+    "block.rubymod.ruby_ore":"Ruby Ore",
+    "creativetab.rubymod.ruby_items":"Ruby Items",
+    "creativetab.rubymod.ruby_block":"Ruby Blocks"
+
+}

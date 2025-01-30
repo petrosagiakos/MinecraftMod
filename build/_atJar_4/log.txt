@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\petros\.gradle\jdks\eclipse_adoptium-21-amd64-windows\jdk-21.0.5+11\bin\java.exe
+Arguments: '--inJar, C:\Users\petros\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.0.28\forge-1.21.1-52.0.28-injected.jar, --outJar, C:\Users\petros\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.0.28_mapped_official_1.21.1\forge-1.21.1-52.0.28_mapped_official_1.21.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\petros\Documents\modding\extra_sword\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\petros\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
+Working directory: C:\Users\petros\Documents\modding\extra_sword\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
