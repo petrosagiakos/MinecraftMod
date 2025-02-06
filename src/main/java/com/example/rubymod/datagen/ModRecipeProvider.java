@@ -278,5 +278,33 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.IRON_NUGGET)
                 .define('B',Items.STICK)
                 .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET)).save(pRecipeOutput);
+            
+             //fire sword 
+             
+             ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FIRE_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', Items.BLAZE_POWDER)
+                .define('B',Items.STICK)
+                .unlockedBy(getHasName(Items.BLAZE_POWDER), has(Items.BLAZE_POWDER)).save(pRecipeOutput);
+
+
+            ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GUN.get())
+                .pattern("CA ")
+                .pattern("B  ")
+                .pattern("   ")
+                .define('A', Items.IRON_INGOT)
+                .define('C', Items.GUNPOWDER)
+                .define('B',Items.STICK)
+                .unlockedBy(getHasName(Items.GUNPOWDER), has(Items.GUNPOWDER)).save(pRecipeOutput);
+
+            ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BULLET_ITEM.get(),18)
+                .pattern("CA ")
+                .pattern("   ")
+                .pattern("   ")
+                .define('A', Items.COPPER_INGOT)
+                .define('C', Items.GUNPOWDER)
+                .unlockedBy(getHasName(Items.GUNPOWDER), has(Items.GUNPOWDER)).save(pRecipeOutput);
     }
 }

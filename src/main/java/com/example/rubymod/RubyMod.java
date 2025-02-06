@@ -2,8 +2,14 @@ package com.example.rubymod;
 
 import com.mojang.logging.LogUtils;
 import com.example.rubymod.blocks.ModBlocks;
+import com.example.rubymod.entity.ModEntities;
+import com.example.rubymod.entity.client.ElephantRenderer;
+import com.example.rubymod.entity.client.BulletRenderer;
+import com.example.rubymod.entity.client.SpearRenderer;
 import com.example.rubymod.items.*;
 import com.example.rubymod.blocks.*;
+
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,7 +20,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
-
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -45,7 +51,7 @@ public class RubyMod
         ModBlocks.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
+        ModEntities.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -83,6 +89,13 @@ public class RubyMod
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
-        
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            //ModItemProperties.addCustomItemProperties();
+
+            EntityRenderers.register(ModEntities.ELEPHANT.get(), ElephantRenderer::new);
+            EntityRenderers.register(ModEntities.BULLET.get(), BulletRenderer::new);
+            EntityRenderers.register(ModEntities.SPEAR.get(), SpearRenderer::new);
+        }
     }
 }

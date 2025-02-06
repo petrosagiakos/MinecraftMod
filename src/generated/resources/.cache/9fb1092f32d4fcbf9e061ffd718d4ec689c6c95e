@@ -1,4 +1,5 @@
-// 1.21.1	2025-01-28T18:10:04.352137	Recipes
+// 1.21.1	2025-02-04T18:40:41.4103795	Recipes
+e973fa8ada862dcf822ddb695bbf47be2bac619d data/rubymod/advancement/recipes/misc/bullet.json
 1bbdcffda7c1dedfaa7eb3d5de41a1916c50d8b3 data/rubymod/advancement/recipes/misc/copper_axe.json
 8515f7f56bbf1a6f82f2d35db9cbe17b26e6fc17 data/rubymod/advancement/recipes/misc/copper_boots.json
 02c1ca131549750d09784d7cd1b1b1361a1bc643 data/rubymod/advancement/recipes/misc/copper_chestplate.json
@@ -17,6 +18,8 @@ d797434746dfd00076d9cb7bd15abf4b62121138 data/rubymod/advancement/recipes/misc/e
 2e17c22b4cc18ce447054fefef845b0aa7fc4a37 data/rubymod/advancement/recipes/misc/emerald_pickaxe.json
 0efd79da327b061e8d0a035603778a2ea345becb data/rubymod/advancement/recipes/misc/emerald_shovel.json
 1624cd85b3883f63644f2a8e1c574a5ac1cd70e6 data/rubymod/advancement/recipes/misc/emerald_sword.json
+a0724e08277a0a2d18e3baed8a01972aa02e4381 data/rubymod/advancement/recipes/misc/fire_sword.json
+f24fd05f8c7c04fd0868dc16979cc3a5c56bb776 data/rubymod/advancement/recipes/misc/gun.json
 29d627c39aed9a9dd92fd2e3b22ef33a9bb55060 data/rubymod/advancement/recipes/misc/healer.json
 32889fa4789cdaf263632e33f54f936df6066282 data/rubymod/advancement/recipes/misc/magic_blade.json
 bba02c7f806e9e8cdf5484bd7001c5d703d476ad data/rubymod/advancement/recipes/misc/pitogyro.json
@@ -32,6 +35,7 @@ f5bb78717843454accc25ee074a7c0d197531a97 data/rubymod/advancement/recipes/misc/r
 bc3b44218e9d5da20ba3a184546b202f80534dcd data/rubymod/advancement/recipes/misc/ruby_shovel.json
 a2a011dbe2275ab8441d665274b73478ff2fdaba data/rubymod/advancement/recipes/misc/ruby_sword.json
 5b9df855218569e26f9bfbce2847c5e84b2585fb data/rubymod/advancement/recipes/misc/spear.json
+a4cccdefdde5039e2d54e2459fedfc3c2127e10b data/rubymod/recipe/bullet.json
 c1f69435f93807a20e057c22b479e3c56aad7afb data/rubymod/recipe/copper_axe.json
 602edfc4f5465919a381355dd91fd8a9b854caca data/rubymod/recipe/copper_boots.json
 05e3d1b445f237797b9e9829828666335660bd59 data/rubymod/recipe/copper_chestplate.json
@@ -50,6 +54,8 @@ bb43355792078e4810db093e1a22b115c9392cd6 data/rubymod/recipe/emerald_chestplate.
 7a3d7f463e9ab89b1ad6d5e7f730acee997d833b data/rubymod/recipe/emerald_pickaxe.json
 acbba6927842677e7b60f81db2d82bc9f3de8819 data/rubymod/recipe/emerald_shovel.json
 fa242a3cdaaac955d7fcb30de42a4ebf18ed422b data/rubymod/recipe/emerald_sword.json
+e57f3c4ee732f4be5f8a5c120edc2c016e49770a data/rubymod/recipe/fire_sword.json
+ebe8ea155c0aeeae5f0fec09b5d828ab38f57ef3 data/rubymod/recipe/gun.json
 571a36e03e9437b005c4952a38d8ab9c3a861c9f data/rubymod/recipe/healer.json
 946ca7dab67a85c609736a1d6a2c3528d7993c02 data/rubymod/recipe/magic_blade.json
 d4e5f8e84aa55f6e120166cb87af63840e11f03b data/rubymod/recipe/pitogyro.json

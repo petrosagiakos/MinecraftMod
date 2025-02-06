@@ -18,4 +18,6 @@ public class ModToolTiers {
     //copper Tier
     public static final Tier COPPER = new ForgeTier(5000,3,4f,30,ModTags.Blocks.NEEDS_COPPER_TOOL, 
     () -> Ingredient.of(Items.COPPER_INGOT), ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL);
+    public static final Tier FIRE = new ForgeTier(1000, 6, 15f, 30, ModTags.Blocks.NEEDS_COPPER_TOOL,
+     ()-> Ingredient.of(Items.BLAZE_POWDER),ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL); 
 }

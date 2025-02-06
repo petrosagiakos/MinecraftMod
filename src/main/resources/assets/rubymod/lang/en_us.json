@@ -30,13 +30,19 @@
     "item.rubymod.emerald_boots":"Emerald Boots",
     "item.rubymod.pitogyro":"Pitogyro",
     "item.rubymod.magic_blade":"Magic Blade",
+    
     "item.rubymod.healer":"Healer",
+    "item.rubymod.elephant_spawn_egg":"Elephant Spawn Egg",
+    "entity.rubymod.elephant": "Elephant",
 
     "item.rubymod.spear":"Spear",
-
+    "item.rubymod.gun":"Gun",
+    "item.rubymod.bullet":"Bullet",
     "block.rubymod.ruby_block":"Ruby Block",
     "block.rubymod.ruby_ore":"Ruby Ore",
     "creativetab.rubymod.ruby_items":"Ruby Items",
     "creativetab.rubymod.ruby_block":"Ruby Blocks"
+
+    
 
 }
